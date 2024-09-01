@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Strategy;
-use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 use App\Models\MetricHistoryRun;
 use Illuminate\Contracts\View\View;
 use App\Http\Requests\MetricRequest;
+
 class MetricController extends Controller
 {
     public function index(): View
@@ -59,4 +59,6 @@ class MetricController extends Controller
         $metrics = MetricHistoryRun::all();
         return view('history', ['metrics' => $metrics]);
     }
+
+    
 }

@@ -10,4 +10,10 @@ return [
     'history'=> 'Metric History',
     'getMetrics'=>'Get Metrics',
     'saveMetric'=> 'Save Metrics',
+    'accessibility'=> 'Accessibility',
+    'bestpractices'=> 'Best Practices',
+    'performance'=> 'Performance',
+    'pwa'=> 'PWA',
+    'seo'=> 'SEO',
+    'language'=> 'Language',
 ];

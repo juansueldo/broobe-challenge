@@ -9,13 +9,13 @@
     <table id="history-table" class="display responsive nowrap mb-3" style="width:100%;">
         <thead>
             <tr>
-                <th>Url</th>
-                <th>Accessibility</th>
-                <th>Best Practices</th>
-                <th>Performance</th>
-                <th>PWA</th>
-                <th>SEO</th>
-                <th>Strategy</th>
+                <th>{{__('metrics.url')}}</th>
+                <th>{{__('metrics.accessibility')}}</th>
+                <th>{{__('metrics.bestpractices')}}</th>
+                <th>{{__('metrics.performance')}}</th>
+                <th>{{__('metrics.pwa')}}</th>
+                <th>{{__('metrics.seo')}}</th>
+                <th>{{__('metrics.strategy')}}</th>
             </tr>
         </thead>
         <tbody>

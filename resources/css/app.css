@@ -119,7 +119,16 @@ body {
     text-decoration: none;
     padding: 10px;
 }
-
+ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+ul li a:hover{
+  color: #580558!important;
+  text-shadow: #a30fff9a;
+  background: #fff;
+}
 .dark-mode {
   background-color: #242424;
   color: #f7f7f7;
@@ -164,8 +173,8 @@ body {
 }
 
 .form-check-input:checked {
-  background-color: #6a0dad; /* Color púrpura cuando está seleccionado */
-  border-color: #6a0dad; /* Color del borde cuando está seleccionado */
+  background-color: #6a0dad; 
+  border-color: #6a0dad; 
 }
 
 .form-check-input:checked::before {
@@ -175,9 +184,9 @@ body {
   left: 50%;
   width: 0.75em;
   height: 0.75em;
-  background-color: #fff; /* Color del checkmark */
+  background-color: #fff;
   transform: translate(-50%, -50%);
-  border-radius: 0.25em; /* Ajusta el borde del checkmark */
+  border-radius: 0.25em;
 }
 
 .form-control {
@@ -571,3 +580,45 @@ body {
   color: #fff;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  color: #5e2d93;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #5e2d93;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropbtn{
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  background-color: #580558;
+  color: white;
+  cursor: pointer;
+  width: 10rem;
+  height: 2.5rem;
+}

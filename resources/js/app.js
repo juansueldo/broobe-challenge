@@ -5,7 +5,12 @@ $(document).ready(function() {
         $('body').addClass('dark-mode');
         $('#toggle-mode').prop('checked', true);
     }
-
+    
+    $('.dropdown').hover(function() {
+        $(this).find('.dropdown-content').slideDown(200);
+    }, function() {
+        $(this).find('.dropdown-content').slideUp(200);
+    });
     $('#toggle-mode').on('change', function() {
         $('body').toggleClass('dark-mode');
 
