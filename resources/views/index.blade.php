@@ -10,7 +10,7 @@
             <div class="container-inputs mb-3">
                 <label class="form-label" for="url">URL</label>
                 <div class="form-check form-check-inline">
-                    <input type="text" class="form-control" id="url" name="url"><br/>
+                    <input type="text" class="form-control" id="url" name="url" placeholder="https://www.broobe.com"><br/>
                 </div>
                     @error('url')
                         <p style="color:red">{{$message}}</p>
